@@ -23,7 +23,7 @@ public class Case {
             //1.加载注册驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2.获取数据库连接
-            connection = DriverManager.getConnection("jdbc://mysql:///jdbcdemo", "root", "root");
+            connection = DriverManager.getConnection("jdbc:mysql:///jdbcdemo", "root", "root");
             //3.创建语句对象
             ps = connection.prepareStatement(sql);
             ps.setString(1,student.getName());
@@ -61,7 +61,7 @@ public class Case {
             //1.加载注册驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2.获取数据库连接
-            connection = DriverManager.getConnection("jdbc://mysql:///jdbcdemo", "root", "root");
+            connection = DriverManager.getConnection("jdbc:mysql:///jdbcdemo", "root", "root");
             //3.创建语句对象
             ps = connection.prepareStatement(sql);
             ps.setLong(1,id);
@@ -98,7 +98,7 @@ public class Case {
             //1.加载注册驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2.获取数据库连接
-            connection = DriverManager.getConnection("jdbc://mysql:///jdbcdemo", "root", "root");
+            connection = DriverManager.getConnection("jdbc:mysql:///jdbcdemo", "root", "root");
             //3.创建语句对象
             ps = connection.prepareStatement(sql);
             ps.setString(1,student.getName());
