@@ -1,0 +1,2 @@
+委派模式(Delegate Pattern)不属于GoF23中设计模式.委派模式的基本作用就是负责任务的调用和分配
+委派模式注重结果,代理模式注重过程 Spring中dispatchServlet
