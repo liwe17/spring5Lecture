@@ -11,7 +11,7 @@
     <modules>
         <module>1designPrinciple</module>
         <module>2springDesignPattern</module>
-        <module>3springSimple1.0</module>
+        <module>3springSimple</module>
     </modules>
     <dependencyManagement>
         <dependencies>
