@@ -11,6 +11,7 @@
     <modules>
         <module>1designPrinciple</module>
         <module>2springDesignPattern</module>
+        <module>3springSimple1.0</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -25,7 +26,12 @@
                 <artifactId>guava</artifactId>
                 <version>20.0</version>
             </dependency>
-
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+                <version>2.4</version>
+                <scope>provided</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>
